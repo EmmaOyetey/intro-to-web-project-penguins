@@ -27,17 +27,15 @@ button{
 }
 
 .who-we-are {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 
     h1 {
         color: $color-primary-light;
          font-size: x-large;
          padding: 10px;
-       
+    }
+
+    img {
+        padding: 10px;
     }
 
     h2 {
@@ -55,4 +53,21 @@ button{
         font-size: small;
         padding: 10px;
     }
+}
+
+
+.what-we-do {
+
+    .button {
+        background-color: $color-primary;
+        color: $color-white;
+        width: 200px; 
+        padding: 10px; 
+    }
+
+    h5 {font-size: large;
+        padding: 10px;
+
+    }
+
 }

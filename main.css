@@ -1,6 +1,32 @@
 /*linking to the modules */
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap"); /*importing 2 fonts roboto and dancing from google fonts for use on the web page/site */
 /*creating variables which can be used references and then used throughout */
+/*linking to the modules */
+nav {
+  height: 60px;
+  background-color: #fafafa;
+  padding: 10px;
+  margin: 20px 0; /* Top and bottom margins of 20px, left and right margins of 0 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  max-width: 200px;
+  max-height: auto;
+}
+
+button {
+  display: block;
+  background-color: #fafafa;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  border-color: #28527a;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
 /*applying styling to the whole sheet */
 * {
   margin: 0;
@@ -8,4 +34,5 @@
   box-sizing: border-box;
   font-family: "Roboto", "sans-serif";
   color: #28527a;
+  background-color: #fafafa;
 }/*# sourceMappingURL=main.css.map */

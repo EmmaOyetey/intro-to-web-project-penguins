@@ -101,6 +101,13 @@ button {
   font-weight: bold;
 }
 
+footer a {
+  text-decoration: none; /* Remove underline */
+  background-color: #e2fb7d;
+  padding: 5px;
+}
+
+/*linking to the modules */
 .who-we-are {
   display: flex;
   flex-direction: column;
@@ -115,6 +122,14 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #e2fb7d;
   text-align: center;
   padding: 10px;
 }

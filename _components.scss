@@ -102,7 +102,6 @@ button{
         span {
             font-weight: bold;
         }
-
     }
 
     .what-you-can-find-item-4 {
@@ -116,4 +115,13 @@ button{
             }       
     }
 
+
 }
+
+footer {
+    a {
+        text-decoration: none; /* Remove underline */
+        background-color: $color-footer;
+        padding: 5px;
+    }
+ }

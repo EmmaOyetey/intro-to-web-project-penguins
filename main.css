@@ -27,16 +27,12 @@ button {
   padding: 10px 20px;
 }
 
-.who-we-are {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 .who-we-are h1 {
   color: #1296b8;
   font-size: x-large;
+  padding: 10px;
+}
+.who-we-are img {
   padding: 10px;
 }
 .who-we-are h2 {
@@ -51,6 +47,33 @@ button {
 .who-we-are h4 {
   font-size: small;
   padding: 10px;
+}
+
+.what-we-do .button {
+  background-color: #28527a;
+  color: #fafafa;
+  width: 200px;
+  padding: 10px;
+}
+.what-we-do h5 {
+  font-size: large;
+  padding: 10px;
+}
+
+.who-we-are {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.what-we-do {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /*applying styling to the whole sheet */

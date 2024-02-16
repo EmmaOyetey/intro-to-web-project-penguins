@@ -26,3 +26,33 @@ button{
     padding: 10px 20px;
 }
 
+.who-we-are {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        color: $color-primary-light;
+         font-size: x-large;
+         padding: 10px;
+       
+    }
+
+    h2 {
+        font-size: large;
+        padding: 10px;
+    }
+
+    h3 {
+        color: $color-primary-light;
+        font-size: medium;
+        padding: 10px;
+    }
+
+    h4 {
+        font-size: small;
+        padding: 10px;
+    }
+}

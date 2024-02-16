@@ -27,6 +27,32 @@ button {
   padding: 10px 20px;
 }
 
+.who-we-are {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.who-we-are h1 {
+  color: #1296b8;
+  font-size: x-large;
+  padding: 10px;
+}
+.who-we-are h2 {
+  font-size: large;
+  padding: 10px;
+}
+.who-we-are h3 {
+  color: #1296b8;
+  font-size: medium;
+  padding: 10px;
+}
+.who-we-are h4 {
+  font-size: small;
+  padding: 10px;
+}
+
 /*applying styling to the whole sheet */
 * {
   margin: 0;

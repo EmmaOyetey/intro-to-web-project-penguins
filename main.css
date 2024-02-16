@@ -1,0 +1,11 @@
+/*linking to the modules */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap"); /*importing 2 fonts roboto and dancing from google fonts for use on the web page/site */
+/*creating variables which can be used references and then used throughout */
+/*applying styling to the whole sheet */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "sans-serif";
+  color: #28527a;
+}/*# sourceMappingURL=main.css.map */

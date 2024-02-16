@@ -1,0 +1,15 @@
+/*linking to the modules */
+
+@use "./variables" as * ;
+@use "./components" ;
+@use "./layouts" ;
+
+/*applying styling to the whole sheet */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-primary;
+}
+

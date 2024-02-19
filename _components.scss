@@ -75,8 +75,7 @@ button{
 
     }
 
-    .what-you-can-find-item-1,
-    .what-you-can-find-item-3 {
+    .what-you-can-find-item-odd {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -84,8 +83,7 @@ button{
         text-align: left;
     }
     
-    .what-you-can-find-item-2,
-    .what-you-can-find-item-4 {
+    .what-you-can-find-item-even {
             display: flex;
             flex-direction: row-reverse;
             justify-content: center;

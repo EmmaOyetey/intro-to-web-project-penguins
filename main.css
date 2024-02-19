@@ -64,20 +64,7 @@ button {
   font-size: large;
   padding: 10px;
 }
-.what-we-do .what-you-can-find-item-1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-}
-.what-we-do .what-you-can-find-item-2 {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-}
+.what-we-do .what-you-can-find-item-1,
 .what-we-do .what-you-can-find-item-3 {
   display: flex;
   flex-direction: row;
@@ -85,6 +72,7 @@ button {
   align-items: center;
   text-align: left;
 }
+.what-we-do .what-you-can-find-item-2,
 .what-we-do .what-you-can-find-item-4 {
   display: flex;
   flex-direction: row-reverse;

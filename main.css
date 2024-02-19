@@ -22,7 +22,7 @@ button {
   text-align: center;
   font-size: large;
   font-weight: bold;
-  border-color: #28527a;
+  border-color: #0f2f4d;
   border-radius: 10px;
   padding: 10px 20px;
   cursor: pointer; /* Set default cursor style to pointer */
@@ -51,7 +51,7 @@ button {
 }
 
 .what-we-do .button-blue {
-  background-color: #28527a;
+  background-color: #0f2f4d;
   color: #fafafa;
   width: 200px;
   padding: 10px;
@@ -151,6 +151,6 @@ footer {
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", "sans-serif";
-  color: #28527a;
+  color: #0f2f4d;
   background-color: #fafafa;
 }/*# sourceMappingURL=main.css.map */

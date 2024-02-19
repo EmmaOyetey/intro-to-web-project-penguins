@@ -106,7 +106,7 @@ footer a {
 }
 
 a:hover {
-  color: #fafafa; /*change list items to white on hover*/
+  font-weight: bold; /*change list items to bold on hover*/
 }
 
 /*linking to the modules */

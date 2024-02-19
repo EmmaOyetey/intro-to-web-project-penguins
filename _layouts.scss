@@ -1,12 +1,16 @@
 @use "./variables" as *;
 
+header {
+    margin: 0;
+}
+
 .who-we-are {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10px;
+    padding: 10px 10px 0px 10px; //to reduce the space between 1st section and button
 }
 
 .what-we-do {
@@ -25,3 +29,10 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+
+@media screen and (min-width: 768px) { /* setting media as mobile*/
+    main {
+    width: 300px;
+    }
+    }
